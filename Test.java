@@ -12,7 +12,6 @@ public class Test implements Observable {
 
   @Override
   public void subscribe(Observer obj) {
-    System.out.println("Nueva suscripción!");
     this.subscribers.add(obj);
   }
 
