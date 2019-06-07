@@ -28,6 +28,7 @@ public class main {
       else
         test.next(entrada);
     }
+    scanner.close();
 
 
   }
