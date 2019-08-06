@@ -2,6 +2,7 @@ import helpers.Observer;
 
 class Logger implements Observer {
   private String name;
+  
   public Logger(String name){
     this.name = name;
   }
